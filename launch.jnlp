@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://44nash.github.io/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Snake</title>
+        <vendor>44nas</vendor>
+        <homepage href=""/>
+        <description>Snake</description>
+        <description kind="short">Snake</description>
+    <icon href="icon.jpg" kind="default"/>
+<offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.8+"/>
+        <jar href="Snake.jar" main="true"/>
+    </resources>
+    <applet-desc height="300" main-class="SnakeApplet" name="Snake" width="300">
+    </applet-desc>
+</jnlp>
